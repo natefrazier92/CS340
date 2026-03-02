@@ -1,1 +1,14 @@
 # CS340
+
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+  Writing code with a modular ideal is useful for maintainability and readability. For example, instead of creating a monolithic block of code, containing all of the functions, classes, and main, it might be better to organize the files into classes. Each of these files could contain the class and its associated getter and setter. Main would be its own file. Any helper functions could be organized into libraries. With this scheme an individual library could be tweaked/fixed and then any code importing this library ebenefits from that fix/tweak.
+
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+  I begin by establishing a comprehensive overview of what needs to be constructed, utilizing a top-down, requirements-driven strategy, rather than diving into coding individual components from the bottom up. I've discovered that if I immediately start coding to tackle the issue, it frequently leads to significant rework as functions evolve, such as needing to pass different arguments or return a different type.
+
+
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+  Computer scientists are vital in addressing intricate challenges by utilizing computational tools and techniques. They scrutinize issues, create inventive solutions, and execute them through software development. Their contributions are significant as they enable organizations to make informed decisions based on data, automate mundane tasks, and optimize workflows. For instance, in the project for Grazioso Salvare, the dashboard I created allows the organization to effectively evaluate the availability of dogs for training and provides insights into the animal population through visual representations. This project exemplifies how computer science can enhance operational efficiency, improve decision-making, and ultimately assist organizations in reaching their objectives. Computer scientists play a key role in fostering technological progress and driving innovation across diverse sectors, making their contributions indispensable in our ever-evolving digital landscape.
